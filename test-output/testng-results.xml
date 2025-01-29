@@ -1,0 +1,453 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="12" passed="11" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-01-29T12:57:48 IST" name="Suite" finished-at="2025-01-29T12:58:19 IST" duration-ms="30841">
+    <groups>
+    </groups>
+    <test started-at="2025-01-29T12:57:48 IST" name="Test" finished-at="2025-01-29T12:58:19 IST" duration-ms="30841">
+      <class name="base.BaseTest">
+        <test-method is-config="true" signature="beforeSuite()[pri:0, instance:base.BaseTest@399c4be1]" started-at="2025-01-29T12:57:48 IST" name="beforeSuite" finished-at="2025-01-29T12:57:48 IST" duration-ms="58" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+      </class> <!-- base.BaseTest -->
+      <class name="inventory.test.GridTest">
+        <test-method is-config="true" signature="beforeMethod(java.lang.String,java.lang.reflect.Method)[pri:0, instance:inventory.test.GridTest@ed7f8b4]" started-at="2025-01-29T12:58:07 IST" name="beforeMethod" finished-at="2025-01-29T12:58:07 IST" duration-ms="894" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void inventory.test.GridTest.verifyGridItemAtPosition7() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="verifyGridItemAtPosition7()[pri:9, instance:inventory.test.GridTest@ed7f8b4]" started-at="2025-01-29T12:58:07 IST" name="verifyGridItemAtPosition7" finished-at="2025-01-29T12:58:08 IST" duration-ms="591" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyGridItemAtPosition7 -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:inventory.test.GridTest@ed7f8b4]" started-at="2025-01-29T12:58:08 IST" name="afterMethod" finished-at="2025-01-29T12:58:08 IST" duration-ms="115" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyGridItemAtPosition7 status=SUCCESS method=GridTest.verifyGridItemAtPosition7()[pri:9, instance:inventory.test.GridTest@ed7f8b4] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod(java.lang.String,java.lang.reflect.Method)[pri:0, instance:inventory.test.GridTest@ed7f8b4]" started-at="2025-01-29T12:58:08 IST" name="beforeMethod" finished-at="2025-01-29T12:58:09 IST" duration-ms="930" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void inventory.test.GridTest.verifyAllGridItemsDetails() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="verifyAllGridItemsDetails()[pri:10, instance:inventory.test.GridTest@ed7f8b4]" started-at="2025-01-29T12:58:09 IST" name="verifyAllGridItemsDetails" finished-at="2025-01-29T12:58:10 IST" duration-ms="769" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAllGridItemsDetails -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:inventory.test.GridTest@ed7f8b4]" started-at="2025-01-29T12:58:10 IST" name="afterMethod" finished-at="2025-01-29T12:58:10 IST" duration-ms="121" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyAllGridItemsDetails status=SUCCESS method=GridTest.verifyAllGridItemsDetails()[pri:10, instance:inventory.test.GridTest@ed7f8b4] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:inventory.test.GridTest@ed7f8b4]" started-at="2025-01-29T12:58:10 IST" name="afterClass" finished-at="2025-01-29T12:58:10 IST" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- inventory.test.GridTest -->
+      <class name="inventory.test.SearchTest">
+        <test-method is-config="true" signature="beforeMethod(java.lang.String,java.lang.reflect.Method)[pri:0, instance:inventory.test.SearchTest@38102d01]" started-at="2025-01-29T12:58:10 IST" name="beforeMethod" finished-at="2025-01-29T12:58:11 IST" duration-ms="885" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void inventory.test.SearchTest.verifySearchFunctionality() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="verifySearchFunctionality()[pri:11, instance:inventory.test.SearchTest@38102d01]" started-at="2025-01-29T12:58:11 IST" name="verifySearchFunctionality" finished-at="2025-01-29T12:58:14 IST" duration-ms="2691" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySearchFunctionality -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:inventory.test.SearchTest@38102d01]" started-at="2025-01-29T12:58:14 IST" name="afterMethod" finished-at="2025-01-29T12:58:14 IST" duration-ms="128" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifySearchFunctionality status=SUCCESS method=SearchTest.verifySearchFunctionality()[pri:11, instance:inventory.test.SearchTest@38102d01] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod(java.lang.String,java.lang.reflect.Method)[pri:0, instance:inventory.test.SearchTest@38102d01]" started-at="2025-01-29T12:58:14 IST" name="beforeMethod" finished-at="2025-01-29T12:58:15 IST" duration-ms="952" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void inventory.test.SearchTest.verifyEmptySearchFunctionality() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="verifyEmptySearchFunctionality()[pri:12, instance:inventory.test.SearchTest@38102d01]" started-at="2025-01-29T12:58:15 IST" name="verifyEmptySearchFunctionality" finished-at="2025-01-29T12:58:18 IST" duration-ms="3718" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Search message is not coming expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Search message is not coming expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertTrue(Assert.java:57)
+at pageEvents.SearchPageEvents.emptySearch(SearchPageEvents.java:39)
+at inventory.test.SearchTest.verifyEmptySearchFunctionality(SearchTest.java:30)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyEmptySearchFunctionality -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:inventory.test.SearchTest@38102d01]" started-at="2025-01-29T12:58:18 IST" name="afterMethod" finished-at="2025-01-29T12:58:19 IST" duration-ms="120" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyEmptySearchFunctionality status=FAILURE method=SearchTest.verifyEmptySearchFunctionality()[pri:12, instance:inventory.test.SearchTest@38102d01] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:inventory.test.SearchTest@38102d01]" started-at="2025-01-29T12:58:19 IST" name="afterClass" finished-at="2025-01-29T12:58:19 IST" duration-ms="7" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- inventory.test.SearchTest -->
+      <class name="inventory.test.LoginTest">
+        <test-method is-config="true" signature="beforeMethod(java.lang.String,java.lang.reflect.Method)[pri:0, instance:inventory.test.LoginTest@c86b9e3]" started-at="2025-01-29T12:57:48 IST" name="beforeMethod" finished-at="2025-01-29T12:57:49 IST" duration-ms="1377" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void inventory.test.LoginTest.loginWithCorrectCredetials() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="loginWithCorrectCredetials()[pri:1, instance:inventory.test.LoginTest@c86b9e3]" started-at="2025-01-29T12:57:49 IST" name="loginWithCorrectCredetials" finished-at="2025-01-29T12:57:50 IST" duration-ms="505" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginWithCorrectCredetials -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:inventory.test.LoginTest@c86b9e3]" started-at="2025-01-29T12:57:50 IST" name="afterMethod" finished-at="2025-01-29T12:57:50 IST" duration-ms="125" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=loginWithCorrectCredetials status=SUCCESS method=LoginTest.loginWithCorrectCredetials()[pri:1, instance:inventory.test.LoginTest@c86b9e3] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod(java.lang.String,java.lang.reflect.Method)[pri:0, instance:inventory.test.LoginTest@c86b9e3]" started-at="2025-01-29T12:57:50 IST" name="beforeMethod" finished-at="2025-01-29T12:57:51 IST" duration-ms="963" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void inventory.test.LoginTest.loginWithInvalidUsername() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="loginWithInvalidUsername()[pri:2, instance:inventory.test.LoginTest@c86b9e3]" started-at="2025-01-29T12:57:51 IST" name="loginWithInvalidUsername" finished-at="2025-01-29T12:57:51 IST" duration-ms="435" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginWithInvalidUsername -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:inventory.test.LoginTest@c86b9e3]" started-at="2025-01-29T12:57:51 IST" name="afterMethod" finished-at="2025-01-29T12:57:51 IST" duration-ms="118" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=loginWithInvalidUsername status=SUCCESS method=LoginTest.loginWithInvalidUsername()[pri:2, instance:inventory.test.LoginTest@c86b9e3] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod(java.lang.String,java.lang.reflect.Method)[pri:0, instance:inventory.test.LoginTest@c86b9e3]" started-at="2025-01-29T12:57:51 IST" name="beforeMethod" finished-at="2025-01-29T12:57:52 IST" duration-ms="971" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void inventory.test.LoginTest.loginWithInvalidPassword() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="loginWithInvalidPassword()[pri:3, instance:inventory.test.LoginTest@c86b9e3]" started-at="2025-01-29T12:57:52 IST" name="loginWithInvalidPassword" finished-at="2025-01-29T12:57:58 IST" duration-ms="5456" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginWithInvalidPassword -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:inventory.test.LoginTest@c86b9e3]" started-at="2025-01-29T12:57:58 IST" name="afterMethod" finished-at="2025-01-29T12:57:58 IST" duration-ms="122" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=loginWithInvalidPassword status=SUCCESS method=LoginTest.loginWithInvalidPassword()[pri:3, instance:inventory.test.LoginTest@c86b9e3] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod(java.lang.String,java.lang.reflect.Method)[pri:0, instance:inventory.test.LoginTest@c86b9e3]" started-at="2025-01-29T12:57:58 IST" name="beforeMethod" finished-at="2025-01-29T12:57:59 IST" duration-ms="957" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void inventory.test.LoginTest.loginWithInvalidUsernameAndPassword() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="loginWithInvalidUsernameAndPassword()[pri:4, instance:inventory.test.LoginTest@c86b9e3]" started-at="2025-01-29T12:57:59 IST" name="loginWithInvalidUsernameAndPassword" finished-at="2025-01-29T12:57:59 IST" duration-ms="441" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginWithInvalidUsernameAndPassword -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:inventory.test.LoginTest@c86b9e3]" started-at="2025-01-29T12:57:59 IST" name="afterMethod" finished-at="2025-01-29T12:57:59 IST" duration-ms="114" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=loginWithInvalidUsernameAndPassword status=SUCCESS method=LoginTest.loginWithInvalidUsernameAndPassword()[pri:4, instance:inventory.test.LoginTest@c86b9e3] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod(java.lang.String,java.lang.reflect.Method)[pri:0, instance:inventory.test.LoginTest@c86b9e3]" started-at="2025-01-29T12:57:59 IST" name="beforeMethod" finished-at="2025-01-29T12:58:00 IST" duration-ms="889" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void inventory.test.LoginTest.loginWithoutUsernameAndPassword() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="loginWithoutUsernameAndPassword()[pri:5, instance:inventory.test.LoginTest@c86b9e3]" started-at="2025-01-29T12:58:00 IST" name="loginWithoutUsernameAndPassword" finished-at="2025-01-29T12:58:01 IST" duration-ms="463" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginWithoutUsernameAndPassword -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:inventory.test.LoginTest@c86b9e3]" started-at="2025-01-29T12:58:01 IST" name="afterMethod" finished-at="2025-01-29T12:58:01 IST" duration-ms="116" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=loginWithoutUsernameAndPassword status=SUCCESS method=LoginTest.loginWithoutUsernameAndPassword()[pri:5, instance:inventory.test.LoginTest@c86b9e3] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:inventory.test.LoginTest@c86b9e3]" started-at="2025-01-29T12:58:01 IST" name="afterClass" finished-at="2025-01-29T12:58:01 IST" duration-ms="104" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- inventory.test.LoginTest -->
+      <class name="inventory.test.FormTest">
+        <test-method is-config="true" signature="beforeMethod(java.lang.String,java.lang.reflect.Method)[pri:0, instance:inventory.test.FormTest@3af9c5b7]" started-at="2025-01-29T12:58:01 IST" name="beforeMethod" finished-at="2025-01-29T12:58:02 IST" duration-ms="935" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void inventory.test.FormTest.verifyCreatedOrder() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="verifyCreatedOrder()[pri:6, instance:inventory.test.FormTest@3af9c5b7]" started-at="2025-01-29T12:58:02 IST" name="verifyCreatedOrder" finished-at="2025-01-29T12:58:03 IST" duration-ms="900" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyCreatedOrder -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:inventory.test.FormTest@3af9c5b7]" started-at="2025-01-29T12:58:03 IST" name="afterMethod" finished-at="2025-01-29T12:58:03 IST" duration-ms="116" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyCreatedOrder status=SUCCESS method=FormTest.verifyCreatedOrder()[pri:6, instance:inventory.test.FormTest@3af9c5b7] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod(java.lang.String,java.lang.reflect.Method)[pri:0, instance:inventory.test.FormTest@3af9c5b7]" started-at="2025-01-29T12:58:03 IST" name="beforeMethod" finished-at="2025-01-29T12:58:04 IST" duration-ms="869" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void inventory.test.FormTest.verifyCreatedOrderWithoutCheckingCheckbox() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="verifyCreatedOrderWithoutCheckingCheckbox()[pri:7, instance:inventory.test.FormTest@3af9c5b7]" started-at="2025-01-29T12:58:04 IST" name="verifyCreatedOrderWithoutCheckingCheckbox" finished-at="2025-01-29T12:58:05 IST" duration-ms="901" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyCreatedOrderWithoutCheckingCheckbox -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:inventory.test.FormTest@3af9c5b7]" started-at="2025-01-29T12:58:05 IST" name="afterMethod" finished-at="2025-01-29T12:58:05 IST" duration-ms="117" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyCreatedOrderWithoutCheckingCheckbox status=SUCCESS method=FormTest.verifyCreatedOrderWithoutCheckingCheckbox()[pri:7, instance:inventory.test.FormTest@3af9c5b7] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod(java.lang.String,java.lang.reflect.Method)[pri:0, instance:inventory.test.FormTest@3af9c5b7]" started-at="2025-01-29T12:58:05 IST" name="beforeMethod" finished-at="2025-01-29T12:58:06 IST" duration-ms="931" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void inventory.test.FormTest.verifytotalOrderValueOfCart() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="verifytotalOrderValueOfCart()[pri:8, instance:inventory.test.FormTest@3af9c5b7]" started-at="2025-01-29T12:58:06 IST" name="verifytotalOrderValueOfCart" finished-at="2025-01-29T12:58:06 IST" duration-ms="707" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifytotalOrderValueOfCart -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:inventory.test.FormTest@3af9c5b7]" started-at="2025-01-29T12:58:06 IST" name="afterMethod" finished-at="2025-01-29T12:58:07 IST" duration-ms="121" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifytotalOrderValueOfCart status=SUCCESS method=FormTest.verifytotalOrderValueOfCart()[pri:8, instance:inventory.test.FormTest@3af9c5b7] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:inventory.test.FormTest@3af9c5b7]" started-at="2025-01-29T12:58:07 IST" name="afterClass" finished-at="2025-01-29T12:58:07 IST" duration-ms="8" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- inventory.test.FormTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
